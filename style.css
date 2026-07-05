@@ -152,3 +152,44 @@ label[for="acepto"] {
     transition: opacity 2.5s ease;
 
 }
+
+@media (max-width: 768px) {
+
+  body {
+    max-width: 100%;
+    padding: 20px;
+    font-size: 18px;
+    line-height: 1.6;
+  }
+
+  h1 {
+    font-size: 30px;
+  }
+
+  h2 {
+    font-size: 24px;
+  }
+
+  p,
+  label {
+    font-size: 18px;
+  }
+
+  button {
+    width: 100%;
+    font-size: 18px;
+    padding: 16px;
+  }
+
+  .popup {
+    width: 90%;
+    max-width: none;
+    padding: 20px;
+  }
+
+  #poster {
+    max-width: 100%;
+    max-height: none;
+  }
+
+}
