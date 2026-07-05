@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="style.css">
+  <title>Protocolo de acceso</title>
+</head>
+<body>
+
+  <h1>INICIAR PROTOCOLO</h1>
+
+<p class="linea">&gt; Seleccione una opción</p>
+  <br>
+
+  <button id="dentroBtn" onclick="ir('update.html')">
+  ▶ ESTOY DENTRO
+  </button>
+  <br>
+
+  <button id="pensarBtn" onclick="mostrarPopup(['ERROR',
+'> El tiempo para pensar ha expirado.',
+'> Estado de asistencia actualizado:',
+'> PROBABLE (87,3%)'
+])">
+  ▶ ME LO TENGO QUE PENSAR
+  </button>
+  <br>
+
+
+  <button id="rajoBtn" onclick="mostrarPopup(['ERROR 404',
+'> No se ha encontrado tu espíritu competitivo.',
+'> Redirigiendo al departamento de decepciones...',
+'> SOLICITUD DENEGADA.',
+'> La opción &quot;rajarse&quot; no está disponible.'
+])">
+  ▶ ME RAJO
+  </button>
+
+  <div id="popup" class="popup">
+  <div id="popupTexto">
+
+  </div>
+
+  <br>
+
+  <button id="volverBtn" onclick="cerrarPopup()">
+    ▶ VOLVER
+  </button>
+</div>
+
+<script src="navegacion.js"></script>
+<script src="terminal.js"></script>
+<script src="menu.js"></script>
+</body>
+</html>

@@ -1,0 +1,4 @@
+iniciarTerminal([
+    "siBtn",
+    "porSupuestoBtn"
+]);

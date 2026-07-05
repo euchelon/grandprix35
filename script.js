@@ -1,0 +1,3 @@
+iniciarTerminal("continuarBtn");
+
+
